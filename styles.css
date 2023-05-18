@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 
 .glow-button {
-    --button-background: #09041e;
-    --button-color: #fff;
+    --button-background: #fee5db;
+    --button-color: #000;
     --button-shadow: rgba(33, 4, 104, 0.2);
-    --button-shine-left: rgba(120, 0, 245, 0.5);
-    --button-shine-right: rgba(200, 148, 255, 0.65);
-    --button-glow-start: #b000e8;
-    --button-glow-end: #009ffd;
+    --button-shine-left: rgba(254, 229, 219, 0.5);
+    --button-shine-right: rgba(254, 229, 219, 0.65);
+    --button-glow-start: #fee5db;
+    --button-glow-end: #645a56;
     appearance: none;
     outline: none;
     border: none;
