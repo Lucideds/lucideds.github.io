@@ -31,7 +31,7 @@
     inset: 0;
     border-radius: inherit;
     overflow: hidden;
-    -webkit-mask-image: -webkit-radial-gradient(white, black);
+    mask-image: -webkit-radial-gradient(white, black);
     transform: scaleY(1.02) scaleX(1.005) rotate(-0.35deg);
 }
 .glow-button .gradient:before {
@@ -55,7 +55,7 @@
     border-radius: inherit;
     background-color: var(--button-background);
     overflow: hidden;
-    -webkit-mask-image: -webkit-radial-gradient(white, black);
+    mask-image: -webkit-radial-gradient(white, black);
 }
 .glow-button span:before {
     content: '';
