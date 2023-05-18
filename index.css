@@ -1,0 +1,17 @@
+@keyframes title {
+    0%   {left:0px; top:225px; opacity: 0%;}
+    100% {left:0px; top:200px; opacity: 100%;}
+  }
+body {
+    background-color:  #2b2727;
+  }
+  h1 {
+    font-size: 75px;
+    top: 200px;
+    color: White;
+    font-family: "comfortaa", light;
+    text-align: center;
+    animation-name: title;
+    animation-duration: 2s;
+    position: relative;   
+  }
