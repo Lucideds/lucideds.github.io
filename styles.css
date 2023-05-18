@@ -3,11 +3,11 @@
 .glow-button {
     --button-background: #fee5db;
     --button-color: #000;
-    --button-shadow: rgba(33, 4, 104, 0.2);
-    --button-shine-left: rgba(254, 229, 219, 0.5);
-    --button-shine-right: rgba(254, 229, 219, 0.65);
-    --button-glow-start: #fee5db;
-    --button-glow-end: #645a56;
+    --button-shadow: #000;
+    --button-shine-left: #000;
+    --button-shine-right: #000;
+    --button-glow-start: #000;
+    --button-glow-end: #000;
     appearance: none;
     outline: none;
     border: none;
