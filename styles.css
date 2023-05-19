@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 
+@keyframes title {
+  0%   {left:0px; top:225px; opacity: 0%;}
+  100% {left:0px; top:200px; opacity: 100%;}
+}
+
+
 .glow-button {
     --button-background: #fee5db;
     --button-color: #000;
@@ -90,6 +96,9 @@ h1 {
   font-weight:300;
   letter-spacing: 2px;
   font-size:48px;
+  animation-name: title;
+  animation-duration: 2;
+  position: relative;
 }
 p {
   font-family: 'Comfortaa', light;
