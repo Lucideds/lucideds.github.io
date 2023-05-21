@@ -17,7 +17,7 @@
     appearance: none;
     outline: none;
     border: none;
-    font-family: 'Comfortaa', light;
+    font-family: 'Comfortaa', cursive;
     font-size: 16px;
     font-weight: 500;
     border-radius: 11px;
@@ -92,7 +92,7 @@ body {
 }
 
 h1 {
-  font-family: 'Comfortaa', light;
+  font-family: 'Comfortaa', cursive;
   font-weight:300;
   letter-spacing: 2px;
   font-size:48px;
@@ -101,7 +101,7 @@ h1 {
   position: relative;
 }
 p {
-  font-family: 'Comfortaa', light;
+  font-family: 'Comfortaa', cursive;
   letter-spacing: 1px;
   font-size:14px;
   color: #2b2727;
