@@ -30,7 +30,7 @@ body {
     animation-name: title;
     animation-duration: 2s;
     position: relative; 
-    animation-delay: 1s;  
+    animation-delay: 2s;  
     animation-fill-mode: forwards;
   }
   h3 {
