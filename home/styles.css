@@ -34,7 +34,7 @@ body {
   }
   h3 {
     opacity: 0%;
-    font-size: 15px;
+    font-size: 75px;
     color: White;
     font-family: 'Comfortaa', cursive;
     animation-name: title;
@@ -42,4 +42,5 @@ body {
     animation-delay: 1s;  
     animation-fill-mode: forwards;
     margin-top: 1000px;
+    margin-left: 100px;
 }
