@@ -3,13 +3,12 @@
     0%   {left:0px; top:225px; opacity: 0%;}
     100% {left:0px; top:200px; opacity: 100%;}
 }
-@keyframes stext {
-  0%   {left:0px; top:225px; opacity: 0%;}
-  100% {left:0px; top:200px; opacity: 50%;}
-}
 body {
     background-color:  #2b2727;
   }
+body::-webkit-scrollbar{
+  display: none;
+}
   h1 {
     font-size: 75px;
     top: 200px;
@@ -36,13 +35,11 @@ body {
   h3 {
     opacity: 0%;
     font-size: 15px;
-    top: 200px;
     color: White;
     font-family: 'Comfortaa', cursive;
-    text-align: center;
-    animation-name: stext;
+    animation-name: title;
     animation-duration: 2s;
-    position: relative; 
-    animation-delay: 1.5s;  
+    animation-delay: 1s;  
     animation-fill-mode: forwards;
+    margin-top: 1000px;
 }
