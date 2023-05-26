@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
-
 @keyframes title {
   0%   {left:0px; top:225px; opacity: 0%;}
   100% {left:0px; top:200px; opacity: 100%;}
@@ -113,7 +112,7 @@ p {
   text-align:center;
   background: -webkit-linear-gradient(to right, #3b3535, #2b2727);
   background: linear-gradient(to right, #3b3535, #2b2727);
-  color: #fee5db;
+  color: white;
 }
 .logo {
   width:50px;
