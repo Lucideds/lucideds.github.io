@@ -5,6 +5,7 @@
 }
 body {
     background-color:  #2b2727;
+    margin: 0;
   }
   body::-webkit-scrollbar{
     display: none;
@@ -43,4 +44,36 @@ body {
     animation-fill-mode: forwards;
     margin-top: 750px;
     margin-left: 100px;
+}
+.topnav {
+  top: -50px;
+  overflow: hidden;
+  background-color: #1d1b1b;
+  font-family: 'Comfortaa', cursive;
+  border-radius: 10px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Comfortaa', cursive;
+  border-radius: 10px;
+}
+
+.topnav a:hover {
+  background-color: #948681;
+  color: white;
+  font-family: 'Comfortaa', cursive;
+  border-radius: 10px;
+}
+
+.topnav a.active {
+  background-color: #fee5db;
+  color: black;
+  font-family: 'Comfortaa', cursive;
+  border-radius: 10px;
 }
