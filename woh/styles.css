@@ -13,21 +13,45 @@ body {
     text-align: center;
     position: relative;   
   }
-.jallow {
-    margin-top: 200px;
-    margin-left: 300px;
-    height: 550px;
-    width: 350px;
-    background-color: #514949;
-    border-radius: 10px;
-    border: 2px #776c6c solid;
-}
+  h2 {
+    font-size: 35px;
+    top: 25px;
+    color: White;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    position: relative;   
+  }
+  h3 {
+    font-size: 20px;
+    top: 20px;
+    color: White;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    position: relative;   
+  }
+
 .clouter {
-    margin-top: 200px;
-    margin-right: 300px;
-    height: 550px;
-    width: 350px;
-    background-color: #514949;
-    border-radius: 10px;
-    border: 2px #776c6c solid;
+  margin-top: 200px;
+  margin-left: 300px;
+  height: 550px;
+  width: 350px;
+  background-color: #514949;
+  border-radius: 10px;
+  border: 2px #776c6c solid;
+}
+img {
+  display: block;
+  left: 30px;
+  top: 40px;
+  position: relative;
+  border-radius: 10px;
+}
+.jallow {
+  margin-top: -553px;
+  margin-left: 800px;
+  height: 550px;
+  width: 350px;
+  background-color: #514949;
+  border-radius: 10px;
+  border: 2px #776c6c solid;
 }
