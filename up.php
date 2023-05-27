@@ -1,7 +1,7 @@
 <?php
 $secret_key = "Lucid"; //Set this as your secret key, to prevent others uploading to your server.
 $sharexdir = "sharex/"; //This is your file dir, also the link..
-$domain_url = 'https://lucideds.github.io/Lucideds-Website/'; //Add an S at the end of HTTP if you have a SSL certificate.
+$domain_url = 'http://lucideds.github.io/Lucideds-Website/'; //Add an S at the end of HTTP if you have a SSL certificate.
 $lengthofstring = 5; //Length of the file name
 
 function RandomString($length) {
