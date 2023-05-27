@@ -11,6 +11,7 @@ body {
     display: none;
   }
   h1 {
+    opacity: 0%;
     font-size: 75px;
     top: 200px;
     color: White;
@@ -18,7 +19,8 @@ body {
     text-align: center;
     animation-name: title;
     animation-duration: 2s;
-    position: relative;   
+    position: relative;  
+    animation-fill-mode: forwards; 
   }
   h2 {
     opacity: 0%;

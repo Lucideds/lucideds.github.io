@@ -43,6 +43,7 @@ body {
   border-radius: 10px;
 }
 h1 {
+    opacity: 100%;
     font-size: 75px;
     top: 200px;
     color: White;
@@ -51,4 +52,31 @@ h1 {
     animation-name: title;
     animation-duration: 2s;
     position: relative;   
+    animation-fill-mode: forwards;
+  }
+  h2 {
+    opacity: 0%;
+    font-size: 45px;
+    top: 200px;
+    color: White;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    animation-name: title;
+    animation-duration: 2s;
+    position: relative; 
+    animation-delay: 2s;  
+    animation-fill-mode: forwards;
+  }
+  h3 {
+    opacity: 0%;
+    font-size: 25px;
+    color: White;
+    font-family: 'Comfortaa', cursive;
+    animation-name: title;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
   }
