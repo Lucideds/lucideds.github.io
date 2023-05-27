@@ -17,13 +17,22 @@
 }
 body {
     background-color:  #2b2727;
-    margin: 0;
   }
   body::-webkit-scrollbar{
     display: none;
 }
+#copyright {
+	float: left;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+	bottom: 0px;
+	width: 100%;
+  color: white;
+  font-family: 'Comfortaa', cursive;
+  position: fixed;
+}
 .topnav {
-  top: -50px;
   overflow: hidden;
   background-color: #1d1b1b;
   font-family: 'Comfortaa', cursive;
@@ -133,4 +142,14 @@ img {
   animation-duration: 2s;
   animation-delay: 1s;
   animation-fill-mode: forwards;
+}
+#copyright {
+	float: left;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+	bottom: 0px;
+	width: 100%;
+  color: white;
+  font-family: 'Comfortaa', cursive;
 }

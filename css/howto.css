@@ -4,14 +4,23 @@
   100% {left:0px; top:200px; opacity: 100%;}
 }
 body {
-    background-color:  #2b2727;
-    margin: 0;
-  }
-  body::-webkit-scrollbar{
-    display: none;
+  background-color:  #2b2727;
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+#copyright {
+	float: left;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+	bottom: 0px;
+	width: 100%;
+  color: white;
+  font-family: 'Comfortaa', cursive;
+  position: fixed;
 }
 .topnav {
-  top: -50px;
   overflow: hidden;
   background-color: #1d1b1b;
   font-family: 'Comfortaa', cursive;
@@ -43,40 +52,40 @@ body {
   border-radius: 10px;
 }
 h1 {
-    opacity: 100%;
-    font-size: 75px;
-    top: 200px;
-    color: White;
-    font-family: 'Comfortaa', cursive;
-    text-align: center;
-    animation-name: title;
-    animation-duration: 2s;
-    position: relative;   
-    animation-fill-mode: forwards;
-  }
+  opacity: 100%;
+  font-size: 75px;
+  top: 200px;
+  color: White;
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+  animation-name: title;
+  animation-duration: 2s;
+  position: relative;   
+  animation-fill-mode: forwards;
+}
   h2 {
     opacity: 0%;
     font-size: 45px;
-    top: 200px;
     color: White;
     font-family: 'Comfortaa', cursive;
-    text-align: center;
+    margin-left: 25px;
     animation-name: title;
     animation-duration: 2s;
     position: relative; 
     animation-delay: 2s;  
     animation-fill-mode: forwards;
-  }
+    text-decoration: underline;
+    }
   h3 {
+    margin-top: 50px;
     opacity: 0%;
     font-size: 25px;
+    margin-left: 35px;
     color: White;
     font-family: 'Comfortaa', cursive;
     animation-name: title;
     animation-duration: 2s;
     animation-delay: 3s;
-    animation-fill-mode: forwards;
-    margin-top: 50px;
-    text-align: center;
+    animation-fill-mode: forwards;   
     position: relative;
-  }
+}
