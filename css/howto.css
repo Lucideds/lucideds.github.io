@@ -3,54 +3,13 @@
   0%   {left:0px; top:225px; opacity: 0%;}
   100% {left:0px; top:200px; opacity: 100%;}
 }
-body {
-  background-color:  #2b2727;
-}
-body::-webkit-scrollbar{
-  display: none;
-}
-#copyright {
-	float: left;
-	padding-bottom: 10px;
-	padding-top: 10px;
-	text-align: center;
-	bottom: 0px;
-	width: 100%;
-  color: white;
-  font-family: 'Comfortaa', cursive;
-  position: fixed;
-}
-.topnav {
-  overflow: hidden;
-  background-color: #1d1b1b;
-  font-family: 'Comfortaa', cursive;
-  border-radius: 10px;
-}
-
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  font-family: 'Comfortaa', cursive;
-  border-radius: 10px;
-}
-
-.topnav a:hover {
-  background-color: #948681;
-  color: white;
-  font-family: 'Comfortaa', cursive;
-  border-radius: 10px;
-}
-
-.topnav a.active {
-  background-color: #fee5db;
-  color: black;
-  font-family: 'Comfortaa', cursive;
-  border-radius: 10px;
-}
+html {height: 100%;width: 100%;}
+body {background-color:  #2b2727;height: 100%;width: 100%;margin: 0;}
+body::-webkit-scrollbar{display: none;}
+.topnav {overflow: hidden;background-color: #1d1b1b;font-family: 'Comfortaa', cursive;border-radius: 10px;margin: 5px; }
+.topnav a {float: left;color: #f2f2f2;text-align: center;padding: 14px 16px;text-decoration: none;font-size: 17px;font-family: 'Comfortaa', cursive;border-radius: 10px;margin: 5px;}
+.topnav a:hover {background-color: #948681;color: white;font-family: 'Comfortaa', cursive;border-radius: 10px;margin: 5px;}
+.topnav a.active {background-color: #fee5db;color: black;font-family: 'Comfortaa', cursive;border-radius: 10px;margin: 5px;}
 h1 {
   opacity: 100%;
   font-size: 75px;
@@ -88,4 +47,27 @@ h1 {
     animation-delay: 3s;
     animation-fill-mode: forwards;   
     position: relative;
+}
+#bottom-of-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+}
+#bottom-of-page {
+  border-top: 2px solid #776c6c;
+  width: 100%;
+  background-color: #1d1b1b;
+  height: 75px;
+}
+#copyright {
+  float: left;
+	padding-bottom: 10px;
+	padding-top: 30px;
+	text-align: center;
+	bottom: 0px;
+	width: 100%;
+  color: white;
+  font-family: 'Comfortaa', cursive;
 }
