@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
-@keyframes small {
+@keyframes smalltext {
   0% {left:0px; opacity: 0%;}
   65% {left: 0px; top: 175px; opacity: 0%;}
   100% {opacity: 100%;top: 200px;}
@@ -51,7 +51,7 @@ h2 {
   color: White;
   font-family: 'Comfortaa', cursive;
   text-align: center;
-  animation-name: small;
+  animation-name: smalltext;
   animation-duration: 2s;
   position: relative; 
   animation-delay: 1s;  
