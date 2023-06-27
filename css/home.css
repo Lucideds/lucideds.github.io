@@ -54,7 +54,7 @@ h2 {
   animation-name: smalltext;
   animation-duration: 2s;
   position: relative; 
-  animation-delay: 1s;  
+  animation-delay: 0.7s;  
   animation-fill-mode: forwards;
 }
 h3 {
