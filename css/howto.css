@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
-@keyframes title {0%   {left:0px; top:225px; opacity: 0%;}100% {left:0px; top:200px; opacity: 100%;}}
+@keyframes small {0% {left:0px; opacity: 0%;} 75% {left: 0px; top: 200px;}}
+@keyframes title {0% {left:0px; top:225px; opacity: 0%;}100% {left:0px; top:170px; opacity: 100%;}}
 html {height: 100%;width: 100%;}
 body {background-color:  #2b2727;height: 100%;width: 100%;margin: 0;}
 body::-webkit-scrollbar{display: none;}

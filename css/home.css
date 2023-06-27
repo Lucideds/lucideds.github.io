@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
-@keyframes title {
-    0%   {left:0px; top:225px; opacity: 0%;}
-    100% {left:0px; top:200px; opacity: 100%;}
+@keyframes small {
+  0% {left:0px; opacity: 0%;}
+  65% {left: 0px; top: 175px; opacity: 0%;}
+  100% {opacity: 100%;top: 200px;}
+}
+@keyframes title { 
+  0% {left:0px; top:275px; opacity: 0%;}
+  65% {left:0px; top:250px; opacity: 100%;}
+  100% {left:0px; top:225px; opacity: 100%;}
 }
 html {height: 100%;width: 100%;}
 body {background-color:  #2b2727;height: 100%;width: 100%;margin: 0;}
@@ -45,10 +51,10 @@ h2 {
   color: White;
   font-family: 'Comfortaa', cursive;
   text-align: center;
-  animation-name: title;
+  animation-name: small;
   animation-duration: 2s;
   position: relative; 
-  animation-delay: 2s;  
+  animation-delay: 1s;  
   animation-fill-mode: forwards;
 }
 h3 {
