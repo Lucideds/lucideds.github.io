@@ -5,7 +5,8 @@
   100% {opacity: 100%;top: 200px;}
 }
 @keyframes title { 
-  0% {left:0px; top:275px; opacity: 0%;}
+  0% {left:0px; top:250px; opacity: 0%;}
+  55% {opacity: 100%;}
   65% {left:0px; top:250px; opacity: 100%;}
   100% {left:0px; top:225px; opacity: 100%;}
 }
@@ -59,7 +60,7 @@ h2 {
 }
 h3 {
   opacity: 0%;
-  font-size: 75px;
+  font-size: 35px;
   color: White;
   font-family: 'Comfortaa', cursive;
   animation-name: title;
