@@ -34,7 +34,7 @@ h1 {
   text-align: center;
   position: relative;
   animation-name: title;
-  animation-duration: 2s;   
+  animation-duration: 1.5s;   
   animation-delay: 0s;
   animation-fill-mode: forwards;
 }
@@ -46,7 +46,7 @@ h1 {
   font-family: 'Comfortaa', cursive;
   text-align: center;
   position: relative;
-  animation-duration: 2s;   
+  animation-duration: 1.5s;   
   animation-delay: 1s;
   animation-name: h2;
   animation-fill-mode: forwards;  
@@ -59,7 +59,7 @@ h3 {
   font-family: 'Comfortaa', cursive;
   text-align: center;
   position: relative;
-  animation-duration: 2s;   
+  animation-duration: 1.5s;   
   animation-delay: 1s;
   animation-name: h3;
   animation-fill-mode: forwards;  
@@ -85,7 +85,7 @@ img {
   top: 40px;
   position: relative;
   animation-name: img;
-  animation-duration: 2s;
+  animation-duration: 1.5s;
   animation-delay: 1s;
   border-radius: 10px;
   animation-fill-mode: forwards;  
@@ -101,7 +101,7 @@ img {
   border-radius: 10px;
   border: 2px #776c6c solid;
   animation-name: img;
-  animation-duration: 2s;
+  animation-duration: 1.5s;
   animation-delay: 1s;
   animation-fill-mode: forwards;
 }

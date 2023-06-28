@@ -32,7 +32,7 @@ h1 {
   font-family: 'Comfortaa', cursive;
   text-align: center;
   animation-name: title;
-  animation-duration: 2s;
+  animation-duration: 1.3s;
   position: relative;   
   animation-fill-mode: forwards;
 }
@@ -43,9 +43,9 @@ h2 {
   font-family: 'Comfortaa', cursive;
   margin-left: 25px;
   animation-name: title;
-  animation-duration: 2s;
+  animation-duration: 1.3s;
   position: relative; 
-  animation-delay: 2s;  
+  animation-delay: 1.2s;  
   animation-fill-mode: forwards;
   text-decoration: underline;
 }
@@ -58,7 +58,7 @@ h3 {
   font-family: 'Comfortaa', cursive;
   animation-name: title;
   animation-duration: 2s;
-  animation-delay: 3s;
+  animation-delay: 1.5s;
   animation-fill-mode: forwards;   
   position: relative;
 }
