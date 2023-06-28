@@ -39,6 +39,7 @@ h1 {
   animation-name: title;
   animation-duration: 2;
   position: relative;
+  color: white
 }
 p {
   font-family: 'Comfortaa', cursive;
