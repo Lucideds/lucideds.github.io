@@ -2,6 +2,7 @@
 <meta content="The Lucideds Website" property="og:description" />
 <meta content="https://lucideds.xyz" property="og:url" />
 <meta content="#fee5db" data-react-helmet="true" name="theme-color" />
+
 <!DOCTYPE html>
 <html lang="en">
 <title>Lucideds.xyz</title>
@@ -39,11 +40,32 @@
         loop: true  
     })
 </script>
-<h3>
-    This is my website! There isnt much yet, but im working on it!<br>
-    <br>
-    If you are a teacher, read the info page.
-</h3>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<div class="h3text">
+    <h3>
+        This is my website! There isnt much yet, but im working on it!<br>
+        <br>
+        If you are a teacher, read the info page.
+    </h3>
+</div>
+
+<script>
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.to(".h3text",{
+        scrollTrigger: ".h3text",
+        delay: 0.1,
+        opacity: 1, 
+        start: "top-center",
+        x: 100
+        });
+    gsap.to(".sec-center",{
+        delay: 3,
+        opacity: 1,
+        y: 10,
+    });
+</script>
+
 <div id="bottom-of-page-container">
     <div id="bottom-of-page">
         <div id="copyright">Copyright 2023 &copy; Lucideds INC</div>

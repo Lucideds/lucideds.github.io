@@ -29,7 +29,7 @@ body::-webkit-scrollbar{display: none;}
 a {position: relative;color: #fff;transition: all 200ms ease-in-out;font-family: 'Comfortaa', cursive;font-weight: 500;font-size: 15px;border-radius: 5px;padding: 5px 0;padding-left: 20px;padding-right: 15px;margin: 2px 0;text-align: left;text-decoration: none;display: -ms-flexbox;display: flex;-webkit-align-items: center;-moz-align-items: center;-ms-align-items: center;-ms-flex-pack: distribute;flex-wrap: wrap;align-items: center;flex-direction: row;}
 a:hover {color: #000;background-color: #fee5db;}
 a .uil {font-size: 22px;}
-.sec-center {left: 10px;top: 10px;margin-left: 10px;margin-top: 10px;padding-top: 10px;}
+.sec-center {opacity: 0%;left: 10px;top: 0px;margin-left: 20px;margin-top: 0px;padding-top: 10px;}
 #bottom-of-page-container {display: flex;flex-direction: column;justify-content: flex-end;width: 100%;height: 100%;}
 #bottom-of-page {border-top: 2px solid #776c6c;width: 100%;background-color: #1d1b1b;height: 75px;}
 #copyright {float: left;padding-bottom: 10px;padding-top: 30px;text-align: center;bottom: 0px;width: 100%;color: white;font-family: 'Comfortaa', cursive;}
@@ -58,15 +58,10 @@ h2 {
   animation-delay: 0.7s;  
   animation-fill-mode: forwards;
 }
-h3 {
+.h3text {
   opacity: 0%;
   font-size: 35px;
   color: White;
   font-family: 'Comfortaa', cursive;
-  animation-name: title;
-  animation-duration: 2s;
-  animation-delay: 3s;
-  animation-fill-mode: forwards;
   margin-top: 750px;
-  margin-left: 100px;
 }
