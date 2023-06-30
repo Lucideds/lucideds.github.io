@@ -26,82 +26,74 @@ a .uil {font-size: 22px;}
 #bottom-of-page-container {display: flex;flex-direction: column;justify-content: flex-end;width: 100%;height: 100%;}
 #bottom-of-page {border-top: 2px solid #776c6c;width: 100%;background-color: #1d1b1b;height: 75px;}
 #copyright {float: left;padding-bottom: 10px;padding-top: 30px;text-align: center;bottom: 0px;width: 100%;color: white;font-family: 'Comfortaa', cursive;}
-h1 {
-  font-size: 75px;
+
+.title {
+  animation-name: title;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  margin-top: 200px;
   top: 50px;
   color: White;
-  font-family: 'Comfortaa', cursive;
   text-align: center;
   position: relative;
-  animation-name: title;
-  animation-duration: 1.5s;   
-  animation-delay: 0s;
-  animation-fill-mode: forwards;
+  font-family: 'Comfortaa', cursive;
 }
-  h2 {
-  opacity: 0%;
+h1 {
+  font-size: 75px;
+}
+h2 {
+  opacity: 100%;
   font-size: 35px;
   top: 25px;
   color: White;
   font-family: 'Comfortaa', cursive;
+  vertical-align: middle;
   text-align: center;
-  position: relative;
-  animation-duration: 1.5s;   
-  animation-delay: 1s;
-  animation-name: h2;
-  animation-fill-mode: forwards;  
-}
-h3 {
-  opacity: 0%;
-  font-size: 20px;
-  top: 20px;
-  color: White;
-  font-family: 'Comfortaa', cursive;
-  text-align: center;
-  position: relative;
-  animation-duration: 1.5s;   
-  animation-delay: 1s;
-  animation-name: h3;
-  animation-fill-mode: forwards;  
-}
-.clouter {
-  opacity: 0%;
-  margin-top: 200px;
-  margin-left: 300px;
-  height: 550px;
-  width: 350px;
-  background-color: #514949;
-  border-radius: 10px;
-  border: 2px #776c6c solid;
-  animation-name: img;
-  animation-duration: 2s;
-  animation-delay: 1s;
-  animation-fill-mode: forwards;  
+  margin-top: 65px;
 }
 img {
-  opacity: 0%;
+  opacity: 100%;
   display: block;
   left: 30px;
   top: 40px;
   position: relative;
-  animation-name: img;
-  animation-duration: 1.5s;
-  animation-delay: 1s;
-  border-radius: 10px;
-  animation-fill-mode: forwards;  
-  
 }
-.jallow {
+#clouter .clouterbox {
   opacity: 0%;
-  margin-top: -553px;
-  margin-left: 800px;
-  height: 550px;
+  margin-top: 500px;
+  margin-left: 50px;
+  height: 500px;
   width: 350px;
   background-color: #514949;
   border-radius: 10px;
   border: 2px #776c6c solid;
-  animation-name: img;
-  animation-duration: 1.5s;
-  animation-delay: 1s;
-  animation-fill-mode: forwards;
+}
+#clouter h3 {
+  opacity: 0%;
+  text-align: center;
+  bottom: 287.5px;
+  font-size: 35px;
+  color: White;
+  font-family: 'Comfortaa', cursive;
+  position: relative;
+}
+
+#jallow .jallowbox {
+  opacity: 0%;
+  margin-top: 50px;
+  margin-left: 50px;
+  height: 500px;
+  width: 350px;
+  background-color: #514949;
+  border-radius: 10px;
+  border: 2px #776c6c solid;
+}
+#jallow h3 {
+  opacity: 0%;
+  text-align: center;
+  bottom: 287.5px;
+  font-size: 35px;
+  color: White;
+  font-family: 'Comfortaa', cursive;
+  position: relative;
 }

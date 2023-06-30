@@ -1,43 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
 <meta content="Lucideds.xyz" property="og:title" />
 <meta content="The Lucideds Website" property="og:description" />
 <meta content="https://lucideds.xyz" property="og:url" />
 <meta content="#fee5db" data-react-helmet="true" name="theme-color" />
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <link rel="icon" type="image/x-icon" href="/img/fravicon.ico">
+    <link rel="icon" type="image/x-icon" href="./img/fravicon.ico">
     <meta charset="UTF-8">
     <link href="./css/woh.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucideds.xyz</title>  
 </head>
 <body>
-    <div class="sec-center"> 	
-        <input class="dropdown" type="checkbox" id="dropdown" name="dropdown"/>
-        <label class="for-dropdown" for="dropdown">Menu<i class="uil uil-arrow-down"></i></label>
-        <div class="section-dropdown"> 
-            <a href="./home">Home</a>
-            <a href="./woh">Woh</a>
-            <a href="./howto">HowTo</a>
-            <a href="./web">Precision</a>
-            <a href="./info">Info</a>
-        </div>
-    </div> 
-    <h1>Lucideds.xyz Wall Of Hate</h1>
-<div class="clouter">
-    <img src="img/clouter.jpg" alt="Alex Clouter" width="290" height="370">
-    <h2>Alex Clouter</h2>
-    <h3>He's a bit of a cunt to be honest.</h3>
-</div>
-<div class="jallow">
-    <img src="img/jallow.jpg" alt="Alpha Jallow" width="290" height="370">
-    <h2>Alpha Jallow</h2>
-    <h3>I don't really like him.</h3>
-</div>
-<div id="bottom-of-page-container">
-    <div id="bottom-of-page">
-        <div id="copyright">Copyright 2023 &copy; Lucideds INC</div>
+<div class="sec-center"> 	
+    <input class="dropdown" type="checkbox" id="dropdown" name="dropdown"/>
+    <label class="for-dropdown" for="dropdown">Menu<i class="uil uil-arrow-down"></i></label>
+    <div class="section-dropdown"> 
+        <a href="./home">Home</a>
+        <a href="./woh">Woh</a>
+        <a href="./howto">HowTo</a>
+        <a href="./web">Precision</a>
+        <a href="./info">Info</a>
     </div>
-  </div>
+</div> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<div class="title">
+    <h1>Lucideds.xyz Wall Of Hate</h1>
+    <h2>This is not ment to actually be derogatory, just for jokes.</h2>
+</div>
+<div id="clouter">
+    <div class="clouterbox">
+        <img src="img/clouter.jpg" alt="Alex Clouter" width="290" height="370">
+        <h2>Alex Clouter</h2>
+    </div>
+    <h3>
+        He's a bit of a cunt.<br>
+        Bald ass shiny head
+    </h3>
+</div>
+<div id="jallow">
+    <div class="jallowbox">
+        <img src="img/jallow.jpg" alt="Alpha Jallow" width="290" height="370">
+        <h2>Alpha Jallow</h2>
+    </div>
+    <h3>
+        I don't really like him. <br>
+        He's kinda annoying to be honest. 
+    </h3>
+</div>
+<script>
+    gsap.to("#clouter .clouterbox", {
+        scrollTrigger: "#clouter .clouterbox",
+        delay: 0.1,
+        opacity: 1, 
+        x: 100,
+        duration: 1
+        });
+    gsap.to("#clouter h3", {
+        scrollTrigger: "#clouter .clouterbox",
+        delay: 0.3,
+        opacity: 1, 
+        x: 100,
+        duration: 1
+        });
+    gsap.to("#jallow .jallowbox", {
+        scrollTrigger: "#jallow .jallowbox",
+        delay: 0.1,
+        opacity: 1, 
+        x: 100,
+        duration: 1
+    });
+    gsap.to("#jallow h3", {
+        scrollTrigger: "#jallow h3",
+        delay: 0.3,
+        opacity: 1, 
+        x: 100,
+        duration: 1
+    });
+</script>
+<div id="bottom-of-page-container"><div id="bottom-of-page"><div id="copyright">Copyright 2023 &copy; Lucideds INC</div></div></div>
 </body>
 </html>
