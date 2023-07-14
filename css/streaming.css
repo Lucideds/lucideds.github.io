@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
-@keyframes small {0% {left:0px; opacity: 0%;} 75% {left: 0px; top: 200px;}}
-@keyframes title {0% {left:0px; top:225px; opacity: 0%;}100% {left:0px; top:170px; opacity: 100%;}}
+@keyframes title {0%  {left:0px; top:75px; opacity: 0%;}100% {left:0px; top:50px; opacity: 100%;}}
+@keyframes h2 {0% {left:0px; top: 20px; opacity: 0%;}100% {left:0px; top:25px; opacity: 100%;}}
+@keyframes h3 {0% {left:0px; top: 15px; opacity: 0%;}100% {left:0px; top:20px; opacity: 100%;}}
+@keyframes img {0% {left: 30px; top: 35px; opacity: 0%;}100% {left:30px; top:40px; opacity: 100%;}}
 html {height: 100%;width: 100%;}
 body {background-color:  #2b2727;height: 100%;width: 100%;margin: 0;}
 body::-webkit-scrollbar{display: none;}
@@ -27,23 +29,22 @@ a .uil {font-size: 22px;}
 h1 {
   opacity: 100%;
   font-size: 75px;
-  top: 200px;
+  top: 300px;
   color: White;
   font-family: 'Comfortaa', cursive;
   text-align: center;
 }
 h2 {
   opacity: 0%;
-  font-size: 45px;
+  font-size: 35px;
   color: White;
   font-family: 'Comfortaa', cursive;
   margin-left: 25px;
   animation-name: title;
-  animation-duration: 1.3s;
+  animation-duration: 1s;
   position: relative; 
-  animation-delay: 1.2s;  
+  animation-delay: 0.5s;  
   animation-fill-mode: forwards;
-  text-decoration: underline;
 }
 h3 {
   margin-top: 50px;
